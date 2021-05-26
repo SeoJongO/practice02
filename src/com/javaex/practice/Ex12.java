@@ -16,9 +16,6 @@ public class Ex12 {
 		System.out.print("숫자2: ");
 		double num2 = sc.nextDouble();
 		
-		if (num2==0) {
-			System.out.println("계산할 수 없습니다.");
-		}
 		switch(giho) {
 		case "+": result=num1+num2; break;
 		case "-": result=num1-num2; break;
